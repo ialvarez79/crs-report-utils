@@ -1,6 +1,5 @@
 package com.tercevall.crsreport;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -8,7 +7,6 @@ import java.util.Calendar;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
@@ -30,35 +28,37 @@ public class XMLDebugger {
 		ObjectFactory objectFactory = new ObjectFactory();
 		
 		CRSOECD parent = objectFactory.createCRSOECD();
-		
-		MessageSpecType messageSpec = objectFactory.createMessageSpecType();
-		parent.setMessageSpec(messageSpec);
-		
-		/*
-		 * 		<SendingCompanyIN>210639630014</SendingCompanyIN>
-		<TransmittingCountry>UY</TransmittingCountry>
-		<ReceivingCountry>CA</ReceivingCountry>
-		<MessageType>CRS</MessageType>
-		<MessageRefId>UY2017CA.210639630014.000000055</MessageRefId>
-		<MessageTypeIndic>CRS701</MessageTypeIndic>
-		<ReportingPeriod>2017-12-31</ReportingPeriod>
-		<Timestamp>2018-02-09T15:50:56</Timestamp>
-		*/
-		messageSpec.setSendingCompanyIN("210639630014");
-		messageSpec.setTransmittingCountry(CountryCodeType.UY);
-		messageSpec.setReceivingCountry(CountryCodeType.CA);
-		messageSpec.setMessageType(MessageTypeEnumType.CRS);
-		messageSpec.setMessageRefId("UY2017CA.210639630014.000000055");
-		messageSpec.setMessageTypeIndic(CrsMessageTypeIndicEnumType.CRS_701); //FIXME - Nacho - REVISAR
-		Calendar reportingPeriod = Calendar.getInstance();
-		reportingPeriod.set(2017, 11, 31);
-		messageSpec.setReportingPeriod(reportingPeriod);
-		Calendar timeStamp = Calendar.getInstance();
-		messageSpec.setTimestamp(timeStamp);
+
+		    /*
+                 * 		<SendingCompanyIN>210639630014</SendingCompanyIN>
+                <TransmittingCountry>UY</TransmittingCountry>
+                <ReceivingCountry>CA</ReceivingCountry>
+                <MessageType>CRS</MessageType>
+                <MessageRefId>UY2017CA.210639630014.000000055</MessageRefId>
+                <MessageTypeIndic>CRS701</MessageTypeIndic>
+                <ReportingPeriod>2017-12-31</ReportingPeriod>
+                <Timestamp>2018-02-09T15:50:56</Timestamp>
+    */
+		String sendingCompanyIn = "210639630014";
+        CountryCodeType transmittingCountryCode = CountryCodeType.UY;
+        CountryCodeType receivingCountryCode = CountryCodeType.CA;
+		String messageRefId = "UY2017CA.210639630014.000000055";
+        CrsMessageTypeIndicEnumType messageTypeIndic = CrsMessageTypeIndicEnumType.CRS_701;
+        Calendar reportingPeriod = Calendar.getInstance();
+        reportingPeriod.set(2017, 11, 31);
+        Calendar timeStamp = Calendar.getInstance();
+        MessageSpecType messageSpec = EntityUtils.buildMessageSpec(objectFactory, sendingCompanyIn, transmittingCountryCode, receivingCountryCode, messageRefId, messageTypeIndic, reportingPeriod, timeStamp);
+        parent.setMessageSpec(messageSpec);
 		
 		/*
 		 * 	<CrsBody>
-		<ReportingFI>
+		*/
+		CrsBodyType crsBody = objectFactory.createCrsBodyType();
+		List<CrsBodyType> parentBodies = parent.getCrsBody();
+		parentBodies.add(crsBody);
+
+		/*
+				<ReportingFI>
 			<ResCountryCode>UY</ResCountryCode>
 			<IN issuedBy="UY" INType="RUC">210639630014</IN>
 			<Name nameType="OECD207">BHU</Name>
@@ -73,37 +73,24 @@ public class XMLDebugger {
 				<DocRefId xmlns="urn:oecd:ties:stf:v4">UY.210639630014.000000043</DocRefId>
 			</DocSpec>
 		</ReportingFI>
-		*/
-		CrsBodyType crsBody = objectFactory.createCrsBodyType();
-		List<CrsBodyType> parentBodies = parent.getCrsBody();
-		parentBodies.add(crsBody);
+		 */
 
-		CorrectableOrganisationPartyType reportingFi = objectFactory.createCorrectableOrganisationPartyType();
-		crsBody.setReportingFI(reportingFi);
+        CountryCodeType reportingFiResCountryCode = CountryCodeType.UY;
+        CountryCodeType reportingFiInIssuedByCountryCode = CountryCodeType.UY;
+        String reportingFiInType = "RUC";
+        String reportingFiInValue = "210639630014";
+        OECDNameTypeEnumType reportingFiNameType = OECDNameTypeEnumType.OECD_207;
+        String reportingFiNameValue = "BHU";
+        OECDLegalAddressTypeEnumType reportingFiLegalAddressType = OECDLegalAddressTypeEnumType.OECD_301;
+        String reportingFiLegalAddressCity = "Montevideo";
+        CountryCodeType reportingFiLegalAddressCountryCode = CountryCodeType.UY;
 
-		reportingFi.getResCountryCode().add(CountryCodeType.UY);
-		OrganisationINType inType = objectFactory.createOrganisationINType();
-		reportingFi.getIN().add(inType);
-		inType.setIssuedBy(CountryCodeType.UY);
-		inType.setINType("RUC");
-		inType.setValue("210639630014");
+        OECDDocTypeIndicEnumType reportingFiDocTypeIndic = OECDDocTypeIndicEnumType.OECD_11;
+        String reportingFiDocRefId = "UY.210639630014.000000043";
 
-		NameOrganisationType fiName = objectFactory.createNameOrganisationType();
-		fiName.setNameType(OECDNameTypeEnumType.OECD_207);
-		fiName.setValue("BHU");
-		reportingFi.getName().add(fiName);
+        CorrectableOrganisationPartyType reportingFi = EntityUtils.buildCorrectableOrganisationPartyType(objectFactory, reportingFiResCountryCode, reportingFiInIssuedByCountryCode, reportingFiInType, reportingFiInValue, reportingFiNameType, reportingFiNameValue, reportingFiLegalAddressType, reportingFiLegalAddressCity, reportingFiLegalAddressCountryCode, reportingFiDocTypeIndic, reportingFiDocRefId);
 
-		//FIXME - NACHO - VER SI CONVIENE HACER UN UTILITARIO PARA SETEAR EL ADDRESS QUE CORRESPONDA
-		OECDLegalAddressTypeEnumType legalAddressType = OECDLegalAddressTypeEnumType.OECD_301;
-		String city = "Montevideo";
-		CountryCodeType countryCode = CountryCodeType.UY;
-		AddressType addressType = EntityUtils.createFixAddressType(objectFactory, legalAddressType, city, countryCode);
-		reportingFi.getAddress().add(addressType);
-
-		DocSpecType reportingFIDocSpec = objectFactory.createDocSpecType();
-		reportingFi.setDocSpec(reportingFIDocSpec);
-		reportingFIDocSpec.setDocTypeIndic(OECDDocTypeIndicEnumType.OECD_11);
-		reportingFIDocSpec.setDocRefId("UY.210639630014.000000043");
+        crsBody.setReportingFI(reportingFi);
 		/*
 		<ReportingGroup>
 			<AccountReport>
@@ -181,7 +168,7 @@ public class XMLDebugger {
 					</Individual>
 				</AccountHolder>
 		 */
-		AddressType individualAddress = EntityUtils.createFixAddressType(objectFactory,null,"OTTAWA         ",CountryCodeType.UY);
+		AddressType individualAddress = EntityUtils.buildFixAddressType(objectFactory,null,"OTTAWA         ",CountryCodeType.UY);
 		individual.getAddress().add(individualAddress);
 		PersonPartyType.BirthInfo individualBirthInfo = objectFactory.createPersonPartyTypeBirthInfo();
 		individual.setBirthInfo(individualBirthInfo);
@@ -208,4 +195,5 @@ public class XMLDebugger {
 		accountAverage.setValue(new BigDecimal(8288.64));
 		return parent;
 	}
+
 }
