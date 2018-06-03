@@ -1,0 +1,35 @@
+<jxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+	<jxb:globalBindings>
+
+		<jxb:javaType name="java.util.Calendar" xmlType="xs:dateTime"
+			parseMethod="javax.xml.bind.DatatypeConverter.parseDateTime"
+			printMethod="com.tercevall.crsreport.util.convert.TimeStampConverter.printDateTime" />
+		<jxb:javaType name="java.util.Calendar" xmlType="xs:date"
+			parseMethod="javax.xml.bind.DatatypeConverter.parseDate"
+			printMethod="com.tercevall.crsreport.util.convert.DateConverter.printDate" />
+		<jxb:javaType name="java.util.Calendar" xmlType="xs:time"
+			parseMethod="javax.xml.bind.DatatypeConverter.parseTime"
+			printMethod="javax.xml.bind.DatatypeConverter.printTime" />
+	</jxb:globalBindings>
+	<jxb:bindings schemaLocation="xmldsig-core-schema.xsd">
+		<jxb:bindings
+			node="//xs:complexType[@name='ReferenceType']">
+			<jxb:class name="ReferenceTypeXMLDSig" />
+		</jxb:bindings>
+		<jxb:bindings
+			node="//xs:complexType[@name='TransformsType']">
+			<jxb:class name="TransformsTypeXMLDSig" />
+		</jxb:bindings>
+	</jxb:bindings>
+	<jxb:bindings schemaLocation="xenc-schema.xsd">
+		<jxb:bindings
+			node="//xs:complexType[@name='ReferenceType']">
+			<jxb:class name="ReferenceTypeXENC" />
+		</jxb:bindings>
+		<jxb:bindings
+			node="//xs:complexType[@name='TransformsType']">
+			<jxb:class name="TransformsTypeXENC" />
+		</jxb:bindings>
+	</jxb:bindings>
+</jxb:bindings>

@@ -1,0 +1,11 @@
+[version: 2.1]
+
+oecdtypes_v4.1.xsd
+	Se suprime valor OECD201 del tipo OECDNameType_EnumType				(2017-12-05)
+
+isocrstypes_v1.0.xsd
+	En CountryCode_Type se agrega valor "YY" 							(2017-12-05)	
+	
+CrsXML_v1.0 - Domestico.xsd
+	En MessageType_EnumType se deja solo el valor "CRS"					(2017-12-06)
+	
