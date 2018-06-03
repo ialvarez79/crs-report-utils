@@ -8,23 +8,20 @@
 
 package com.tercevall.crsreport.input.entities;
 
-import java.util.Calendar;
+import java.math.BigDecimal;
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-public class Adapter3
-    extends XmlAdapter<String, Calendar>
+public class Adapter4
+    extends XmlAdapter<String, BigDecimal>
 {
 
 
-    public Calendar unmarshal(String value) {
-        return (javax.xml.bind.DatatypeConverter.parseTime(value));
+    public BigDecimal unmarshal(String value) {
+        return (javax.xml.bind.DatatypeConverter.parseDecimal(value));
     }
 
-    public String marshal(Calendar value) {
-        if (value == null) {
-            return null;
-        }
-        return (javax.xml.bind.DatatypeConverter.printTime(value));
+    public String marshal(BigDecimal value) {
+        return (com.tercevall.crsreport.util.convert.BigDecimalConverter.printTwoDigitDecimal(value));
     }
 
 }
