@@ -2,81 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed1bfac-346b-4ad9-8397-71434c45c23a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AccountHolderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AccountHolderType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AcctNumberTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AcctNumberTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/Adapter3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AddressFixType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AddressFixType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AddressType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AddressType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AgreementMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/AgreementMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CRSOECD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CRSOECD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CanonicalizationMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CanonicalizationMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CipherDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CipherDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CipherReferenceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CipherReferenceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ControllingPersonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ControllingPersonType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectableAccountReportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectableAccountReportType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectableOrganisationPartyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectableOrganisationPartyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectablePoolReportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CorrectablePoolReportType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CountryCodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CountryCodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsAcctHolderTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsAcctHolderTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsBodyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsBodyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsCtrlgPersonTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsCtrlgPersonTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsMessageTypeIndicEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsMessageTypeIndicEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsPaymentTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CrsPaymentTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CurrCodeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CurrCodeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DSAKeyValueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DSAKeyValueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DigestMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DigestMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DocSpecType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/DocSpecType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedKeyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedKeyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptedType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionPropertiesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionPropertiesType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionPropertyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/EncryptionPropertyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/FIAccountNumberType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/FIAccountNumberType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/FatcaAcctPoolReportTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/FatcaAcctPoolReportTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/KeyInfoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/KeyInfoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/KeyValueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/KeyValueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ManifestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ManifestType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MessageSpecType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MessageSpecType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MessageTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MessageTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MonAmntType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/MonAmntType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/NameOrganisationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/NameOrganisationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/NamePersonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/NamePersonType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDDocTypeIndicEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDDocTypeIndicEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDLegalAddressTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDLegalAddressTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDNameTypeEnumType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OECDNameTypeEnumType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OrganisationINType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OrganisationINType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OrganisationPartyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/OrganisationPartyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PGPDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PGPDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PersonPartyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/PersonPartyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/RSAKeyValueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/RSAKeyValueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceTypeXENC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceTypeXENC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceTypeXMLDSig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ReferenceTypeXMLDSig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/RetrievalMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/RetrievalMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SPKIDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SPKIDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureMethodType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureMethodType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignaturePropertiesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignaturePropertiesType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignaturePropertyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignaturePropertyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureValueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignatureValueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignedInfoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/SignedInfoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TINType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TINType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformsTypeXENC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformsTypeXENC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformsTypeXMLDSig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/TransformsTypeXMLDSig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/X509DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/X509DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/X509IssuerSerialType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/X509IssuerSerialType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/xsd/input/binding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/xsd/input/binding.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,8 +38,8 @@
       <file leaf-file-name="BigDecimalConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="120">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLDebugger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XMLDebugger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="176" column="35" lean-forward="true" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -176,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commontypesfatcacrs_v1.1-domestico.xsd" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commontypesfatcacrs_v1.1-domestico.xsd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/xsd/input/commontypesfatcacrs_v1.1-domestico.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="-465">
               <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
@@ -197,11 +125,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>crsBody</find>
-      <find>CountryCo</find>
       <find>name</find>
       <find>thread</find>
       <find>BigDecim</find>
       <find>balan</find>
+      <find>CountryCo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,10 +139,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/EntityUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/App.java" />
         <option value="$PROJECT_DIR$/src/main/xsd/input/binding.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java" />
       </list>
     </option>
   </component>
@@ -391,29 +319,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1606" height="823" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.495625" weight="0.32913166" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.495" weight="0.32913166" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5025" side_tool="true" visible="true" weight="0.23669468" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50375" side_tool="true" visible="true" weight="0.23669468" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975" visible="true" weight="0.23669468" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49625" weight="0.23669468" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2175" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2175" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499375" weight="0.39915967" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,6 +351,27 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java</url>
+          <line>8</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>df.format(bd)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/CRSOECD.java">
@@ -437,13 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1884">
-          <caret line="983" column="68" selection-start-line="983" selection-start-column="68" selection-end-line="983" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -461,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -506,16 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xsd/input/crs-xml_v1.0-domestico.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -525,8 +449,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/xsd/input/commontypesfatcacrs_v1.1-domestico.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="-465">
           <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/input/entities/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1884">
+          <caret line="983" column="68" selection-start-line="983" selection-start-column="68" selection-end-line="983" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/util/convert/BigDecimalConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tercevall/crsreport/XMLDebugger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="176" column="35" lean-forward="true" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -11,6 +11,9 @@
 		<jxb:javaType name="java.util.Calendar" xmlType="xs:time"
 			parseMethod="javax.xml.bind.DatatypeConverter.parseTime"
 			printMethod="javax.xml.bind.DatatypeConverter.printTime" />
+		<jxb:javaType name="java.math.BigDecimal" xmlType="xs:decimal"
+					  parseMethod="javax.xml.bind.DatatypeConverter.parseDecimal"
+					  printMethod="com.tercevall.crsreport.util.convert.BigDecimalConverter.printTwoDigitDecimal" />
 	</jxb:globalBindings>
 	<jxb:bindings schemaLocation="xmldsig-core-schema.xsd">
 		<jxb:bindings

@@ -1,5 +1,8 @@
 package com.tercevall.crsreport;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.List;
@@ -13,11 +16,14 @@ import com.tercevall.crsreport.input.entities.*;
 import com.tercevall.crsreport.util.convert.EntityUtils;
 
 public class XMLDebugger {
-	public static void debugXML(CRSOECD element) throws JAXBException {
+	public static void debugXML(CRSOECD element) throws JAXBException, IOException {
         JAXBContext context = JAXBContext.newInstance("com.tercevall.crsreport.input.entities");
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty("jaxb.formatted.output",Boolean.TRUE);
         marshaller.marshal(element,System.out);
+        FileOutputStream fos = new FileOutputStream("/home/nacho/Documents/Nacho/Trabajo/Tercevall/reporte-xml-prueba.xml",false);
+        marshaller.marshal(element,fos);
+        fos.close();
 	}
 	
 	public static CRSOECD buildFakeElement() {
@@ -182,6 +188,7 @@ public class XMLDebugger {
 		Calendar birthDate = Calendar.getInstance();
 		birthDate.set(1991,01,12);
 		individualBirthInfo.setBirthDate(birthDate);
+		individualBirthInfo.setCity("OTTAWA         ");
 		/*
 						<AccountBalance currCode="UYI">123456.00</AccountBalance>
 				<AccountAverage currCode="UYI">8288.64</AccountAverage>
@@ -192,7 +199,8 @@ public class XMLDebugger {
 		MonAmntType accountBalance = objectFactory.createMonAmntType();
 		accountReport.setAccountBalance(accountBalance);
 		accountBalance.setCurrCode(CurrCodeType.UYI);
-		accountBalance.setValue(new BigDecimal(123456.00));
+		double accountBalanceDBL = 123456.00;
+		accountBalance.setValue(new BigDecimal(accountBalanceDBL));
 
 		MonAmntType accountAverage = objectFactory.createMonAmntType();
 		accountReport.setAccountAverage(accountAverage);
